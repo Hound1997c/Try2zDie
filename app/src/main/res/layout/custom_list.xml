@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/TableLayout">
+
+    <TextView
+        android:id="@+id/itemType"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/itemId"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/quantityNeed"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/quantityHave"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/colorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</TableRow>
